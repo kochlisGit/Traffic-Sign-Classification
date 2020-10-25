@@ -13,7 +13,6 @@ the small size of the dataset, I've applied the following data augmentation tech
 1. Rescaling (Normalizing) all pixel values to a range between [0, 1].
 1. Rotating images for 20 degrees.
 1. Shifting the images both horizontally and vertically.
-1. Horizontal Flipping.
 1. Zooming.
 1. Shearing.
 
