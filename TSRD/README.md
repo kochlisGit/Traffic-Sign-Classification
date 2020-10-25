@@ -2,6 +2,8 @@
 
 Chinese Traffic Sign Database (TSRD) is a traffic sign recognition dataset, which contains 58 different classes of traffic signs. The difficulty in this dataset is that:
 
+http://www.nlpr.ia.ac.cn/pal/trafficdata/recognition.html
+
 1. Provides little data (images) for each class.
 1. Images don't have a standard size.
 
