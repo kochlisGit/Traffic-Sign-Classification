@@ -193,4 +193,4 @@ Even though I haven't done enough things to increase the accuracy and prevent th
 
 # Training - Validation loss plot
 
-[!Loss plot](https://github.com/kochlisGit/Traffic-Sign-Detection/blob/main/TSRD/loss_plot.png)
+![Loss plot](https://github.com/kochlisGit/Traffic-Sign-Detection/blob/main/TSRD/loss_plot.png)
