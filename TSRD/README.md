@@ -22,6 +22,9 @@ the small size of the dataset, I've applied the following data augmentation tech
 For the training part, I used an Inception-ResnetV2 from keres.applications library. I included the top layers, but I didn't use any of the pre-trained weights, so
 I trained the model from the beginning. At the output layer, I used a softmax activation function, because there are 58 different classes.
 
-Then, I compiled the model using Adam Optimizer with initial learning rate = 0.001 and a Categorical Cross-Entropy loss.
+Then, I compiled the model using Adam Optimizer with initial learning rate = 0.001 and a Categorical Cross-Entropy loss. Then I started training the model for 40 epochs,
+using the Early Stopping strategy.
 
 # Results
+
+Even though I haven't done enough things to increase the accuracy and prevent the overfitting of the model, the results are quite amazing. The model managed to achieve almost 95% accuracy, with a so small dataset and so little improvements.
